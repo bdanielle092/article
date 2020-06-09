@@ -1,0 +1,1 @@
+document.getElementsByClass("article__header").textContent = "Faith's";
