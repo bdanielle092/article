@@ -15,10 +15,10 @@ console.log(footer)
 footer.classList.add("goldenrod")
 console.log(footer, "test4")
 
-const aside = document.querySelectorAll(".dashed")
+const aside = document.querySelector(".dashed")
 console.log(aside)
-// aside.dashed.remove("dashed")
-// console.log(aside, "test5")
+aside.classList.remove("dashed")
+console.log(aside, "test5")
 
 
 
